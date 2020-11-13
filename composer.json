@@ -1,0 +1,23 @@
+{
+	"name": "brighamheyn/phasten",
+	"description": "Functional model binding for PHP",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Brig",
+			"email": "brighamheyn@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Phasten\\": "src/"
+		}
+	}
+}
